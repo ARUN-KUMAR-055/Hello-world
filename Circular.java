@@ -49,6 +49,7 @@ public class Circular {
 	public void prePersist() {
 		final DateTime current = DateTime.now();
 		createdAt = current;
+		System.out.println("hello");
 	}
 
 	public void setCreatedAt(final DateTime createdAt) {
